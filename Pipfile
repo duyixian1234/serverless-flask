@@ -4,9 +4,12 @@ url = "https://mirrors.cloud.tencent.com/pypi/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
+yapf = "*"
 
 [packages]
 flask = "*"
+qrcode = {extras = ["pil"],version = "*"}
 
 [requires]
 python_version = "3.6"
